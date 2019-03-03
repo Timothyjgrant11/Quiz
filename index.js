@@ -1,3 +1,15 @@
+const STORE = [ {
+    question: 'Who is the author of the Great Gatspy?',
+    answers: [
+        'A - John Lennon',
+        'B - Jay Gatsby',
+        'C - F. Scott Fitzgerald',
+        'D - Zelda Fitzgerald',
+    ],
+    correctAnswer: 2,
+
+}];
+
 let questionNumber = 0;
 let score = 0;
 
@@ -96,7 +108,7 @@ function handleFinalPage() {
   htmlString += `<main role="main">
     <section class="results-page" role="main">
       <h1>You scored ${score} / ${STORE.length}! ${finalAssessment(score)}</h1>
-    <a href="https://fully-implemented-houseplant-quiz-app-2--ahna.repl.co/">Take the quiz again</a>
+    <a href="!!!link added here!!!">Take the quiz again</a>
     </section>
   </main>`;
   $('main').html(htmlString);
