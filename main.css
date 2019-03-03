@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+  margin-top: 10px;
+  border: 1px solid;
+  text-align: center;
+  font-size: 22px;
+  background-color: rgba(255, 255, 255, .8);
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+body {
+    height: 100%;
+    background-image: url('https://i.imgur.com/NfUXG.jpg');
+    background-repeat: repeat-y, repeat-x;
+}
+
+p {
+    color: black;
+    text-align: center;
+}
+
+button, .submitButton {
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 2px;
+  margin-top: 20px;
+
+}
+
+.startButton {
+  margin-bottom: 20px;
+  font-family: 'Abel';
+}
+
+.submitButton {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 2px;
+  font-family: 'Abel';
+
+}
+
+form, .quizBegin {
+ background-color: rgba(255, 255, 255, .8);
+ border: 1px black solid;
+ margin-bottom: 30px;
+}
+
+main, header {
+  max-width: 500px;
+  margin: 0 auto;
+  margin-top: 75px;
+}
+
+fieldset {
+  border: none;
+  margin-top: 20px;
+}
+
+input[type=radio] {
+  margin-left: 20px;
+}
+
+legend {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.feedback-page {
+  border: 1px black solid;
+  background-color: rgba(255, 255, 255, .8);
+}
+
+.feedback-page, h3 {
+  margin-left: 10px;
+}
+
+#next-button {
+  margin-bottom: 20px;
+}
+
+.results-page {
+  border: 1px black solid;
+  background-color: rgba(255, 255, 255, .8);
+  text-align: center;
+}
+
+#reset {
+  margin-bottom: 20px;
+}
+
+.quizBegin {
+  font-size: 18px;
+}
+
+a {
+  font-size: 16px;
+  margin-bottom: 2px;
+}
