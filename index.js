@@ -199,7 +199,7 @@ function handleFinalPage() {
   htmlString += `<main role="main">
     <section class="results-page" role="main">
       <h1>You scored ${score + 1} / ${STORE.length}! ${finalAssessment(score)}</h1>
-    <a href="!!!link added here!!!">Take the quiz again</a>
+       <a href="file:///Users/timothy/Projects/Quiz/index.html">Take the quiz again</a>
     </section>
   </main>`;
   $('main').html(htmlString);
