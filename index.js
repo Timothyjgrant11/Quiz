@@ -125,7 +125,7 @@ function renderQuestionPage() {
   htmlString += `
     <form class="js-form">
       <legend class="question">
-        <h3>(${questionNumber + 1} // 10) ${question.question}
+        <h3>(${questionNumber} // 10) ${question.question}
         </h3>
       </legend>
       <fieldset>
